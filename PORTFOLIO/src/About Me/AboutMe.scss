@@ -4,13 +4,13 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: rgb(5, 35, 57);
+
 
     
 
     h1{
         margin-bottom: 4rem;
-        color: rgb(181, 166, 29);
+        color: rgb(255, 255, 255);
       
 
 }
@@ -19,15 +19,16 @@
 .abtMe{
     margin-top: -23;
     font-weight: bolder;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .aboutMe{
-    font-size: 15px;
+   h2{ font-size: 15px;
 
     color: rgb(220, 218, 218);
-    font-size: smaller;
-    
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
 }
 
 .abtContainer{
@@ -39,6 +40,6 @@
 .gap {
     height: 2px; 
     width: 100%;
-    background-color: bisque;
+    background-color: rgb(255, 191, 31);
     margin-bottom: 30px;
   }

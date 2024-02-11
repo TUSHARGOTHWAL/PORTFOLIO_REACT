@@ -1,0 +1,55 @@
+// Knowledge.scss
+.know-wrapper {
+    padding: 20px;
+    display: flex;
+    max-width: 1366px;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 10rem;
+    
+    .tech-logos-container {
+        display: grid;
+        grid-template-columns: repeat(4, 20fr); 
+        gap: 20px;
+        justify-content: center;
+        border: 5px solid rgb(255, 191, 31);
+        border-radius: 50px;
+        height: 100%;
+        padding: 40px;
+        
+        .tech-logo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 3px solid white;
+            border-radius: 20px;
+            padding: 20px;
+            
+            img {
+                width: 50px;
+                height: 50px; 
+                object-fit: contain;
+            }
+            
+            p {
+                margin-top: 10px;
+                font-size: 14px;
+                text-align: center;
+                color: aliceblue;
+            }
+        }
+    }
+
+    h1{
+        flex: 1;
+        align-self: center;
+        margin-left: 80px;
+        font-size: 69px;
+        color: aliceblue;
+        
+
+    }
+    
+}

@@ -1,20 +1,20 @@
 
 .navbar-container{
-    height: 60px;
+    height: 80px;
     width: auto;
     align-items: center;
     margin-top: auto;
     display: flex;
     margin-bottom: auto;
-    background-color:  rgb(5, 35, 57);
-
+    background-color: rgb(11, 16, 19);
     
 }
 
 .nav-wrapper{
     display: flex;
     
-    
+        
+
 }
 
 .nav-button{
@@ -25,11 +25,29 @@
 }
 
 .myname{
-
+    
     margin-left: 150px;
-    font-weight: bolder;
+    font-size: 25px;
     letter-spacing: 1.5px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    align-items: center;
+  
+   
+    
 }
 
+.logocontainer{
+    position: relative;
+    margin-left: 55%;
+    
+    img{
+        height: 30px;
+        width: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+    
+        
+    }
+    
+}
 

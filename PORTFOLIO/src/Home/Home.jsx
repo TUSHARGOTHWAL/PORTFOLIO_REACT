@@ -20,6 +20,54 @@ const textVariants = {
   },
 };
 
+
+
+
+const staggerTextVariants = {
+  animate: {
+    transition: {
+      staggerChildren: 0.1, 
+    },
+  },
+};
+
+const letterVariants = {
+  initial: { opacity: 0, x: -10 },
+  animate: { opacity: 1, x: 0 },
+};
+
+
+const AnimatedText = ({ text }) => {
+    return (
+      <motion.span variants={staggerTextVariants} initial="initial" whileInView="animate">
+        {text.split('').map((letter, index) => (
+          <motion.span key={index} variants={letterVariants}>
+            {letter}
+          </motion.span>
+        ))}
+      </motion.span>
+    );
+  };
+  
+
+
+  const openExternalLink = () => {
+  
+    const externalLink = 'https://drive.google.com/file/d/1kgKQR89eFLDJfZF7JUIEBzJ_Qqa604wo/view?usp=drive_link';
+
+
+    window.open(externalLink, '_blank');
+  };
+
+
+  
+    const scrollToBottom = () => {
+      // Scroll to the bottom of the document body
+      window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    };
+  
+
+
 const Home = () => {
   return (
     <div className='home'>
@@ -30,11 +78,11 @@ const Home = () => {
           initial="hidden"
           animate="visible"
         >
-          <h2>HI, <br />MY NAME IS TUSHAR GOTHWAL</h2>
+          <h2>HI, <br/> <AnimatedText text="MY NAME IS TUSHAR GOTHWAL" /></h2>
           <h1 className='whiteText'>WEB DEVELOPER | DESIGNER | ENGINEER</h1>
           <div className="buttons">
-            <button>SEE LATEST WORK</button>
-            <button>GET IN TOUCH</button>
+            <button onClick={openExternalLink}>MY RESUME</button>
+            <button onClick={scrollToBottom}>GET IN TOUCH</button>
           </div>
           <div className="scrlPng" >
             <img src="scroll.png" alt="Scroll" />

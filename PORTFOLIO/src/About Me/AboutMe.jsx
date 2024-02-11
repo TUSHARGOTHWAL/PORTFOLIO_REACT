@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const staggerTextVariants = {
   animate: {
     transition: {
-      staggerChildren: 0.01, 
+      staggerChildren: 0.005, 
     },
   },
 };
@@ -35,15 +35,12 @@ return(
     <div className="textContainerAbout">
         
 
-        <div className="abtMe"><h1>WHO I AM</h1></div>
+        <div className="abtMe"><h1>A BIT ABOUT ME</h1></div>
 
         <div className="abtContainer">
         <div className="gap" />
         <div className="aboutMe"> <h2>
-        <AnimatedText text="Enthusiastic Computer Science Engineering student with a keen understanding of web development, data structures, 
-algorithms, and computer hardware. Excited about backend development and the potential for innovation. A proactive 
-founder of DevSource Community, actively engaged in open-source projects, and dedicated to collaborative growth within 
-the tech community. Seeking opportunities to apply and expand technical skills in the field of software development" />
+        <AnimatedText text="Enthusiastic Computer Science Engineering student with a keen understanding of web development, data structures, algorithms, and computer hardware. Excited about backend development and its potential for innovation. Proactively founded DevSource Community, actively engaging in open-source projects, and dedicated to collaborative growth within the tech community. Seeking opportunities to apply and expand technical skills in the field of software development" />
       </h2>
 
       </div>

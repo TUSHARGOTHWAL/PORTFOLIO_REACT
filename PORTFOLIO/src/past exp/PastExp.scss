@@ -1,0 +1,57 @@
+.expmastercontainer{
+    height: 150vh;
+    margin-bottom: 2rem;
+   h1{
+    margin-left: 45%;
+ 
+    color: aliceblue;
+    font-size: 50px;
+   }
+}
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    height: 100vh;
+  }
+  
+  .experience-line {
+    width: 4px;
+    height: 130%;
+    background-color: #ffa424;
+    position: absolute;
+    margin-left: 10%;
+  }
+  
+  .experience-boxes {
+    display: block;
+    justify-content: space-between;
+    width: 80%;
+  }
+  
+  .experience-box {
+    width: 45%;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #333;
+    border-radius: 34px;
+    
+    p{
+        color: aliceblue;
+    }
+  }
+  
+  .experience-box.left {
+    text-align: left;
+    
+    
+    
+  }
+  
+  .experience-box.right {
+    text-align: right;
+    margin-left:63%;
+  }
+  
