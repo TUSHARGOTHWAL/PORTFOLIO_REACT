@@ -1,0 +1,44 @@
+.textContainerAbout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(5, 35, 57);
+
+    
+
+    h1{
+        margin-bottom: 4rem;
+        color: rgb(181, 166, 29);
+      
+
+}
+
+}
+.abtMe{
+    margin-top: -23;
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+.aboutMe{
+    font-size: 15px;
+
+    color: rgb(220, 218, 218);
+    font-size: smaller;
+    
+}
+
+.abtContainer{
+    padding-left: 6rem;
+    padding-right: 6rem;
+    
+}
+
+.gap {
+    height: 2px; 
+    width: 100%;
+    background-color: bisque;
+    margin-bottom: 30px;
+  }
