@@ -51,7 +51,7 @@ function TechLogo({ id, name, logoUrl }) {
 
 const Knowledge = () => {
   return (
-    <motion.div className="know-wrapper" variants={variants} initial="initial" animate="animate" >
+    <div className="know-wrapper" variants={variants} initial="initial" animate="animate" >
       <motion.div className="tech-logos-container" variants={variants} initial="initial" whileInView="animate">
         {techLogos.map((tech) => (
             <TechLogo key={tech.id} {...tech} />
@@ -59,7 +59,7 @@ const Knowledge = () => {
       </motion.div>
       <motion.h1 variants={variants} initial="initial" whileInView="animate">
         WHAT I KNOW ? </motion.h1>
-    </motion.div>
+    </div>
   );
 }
 

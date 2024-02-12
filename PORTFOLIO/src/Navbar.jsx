@@ -14,7 +14,7 @@ const Navbar = () => {
       {/* <Sidebar /> */}
       <div className="nav-wrapper">
         <motion.span className='myname' variants={variants} initial="hidden" animate="visible">
-          TUSHAR GOTHWAL
+        &#123; TUSHAR GOTHWAL &#125;
         </motion.span>
       </div>
       <div className="logocontainer">
