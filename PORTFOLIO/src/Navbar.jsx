@@ -1,7 +1,7 @@
 // Navbar.jsx
 import './Navbar.scss';
 import { motion } from 'framer-motion';
-import Sidebar from './sidebar/Sidebar';
+// import Sidebar from './sidebar/Sidebar';
 
 const variants = {
   visible: { opacity: 1, transition: { duration: 0.7, delay: 0.5 }, scale: 1.6, x: 30 },
@@ -11,7 +11,7 @@ const variants = {
 const Navbar = () => {
   return (
     <div className="navbar-container">
-      <Sidebar />
+      {/* <Sidebar /> */}
       <div className="nav-wrapper">
         <motion.span className='myname' variants={variants} initial="hidden" animate="visible">
           TUSHAR GOTHWAL

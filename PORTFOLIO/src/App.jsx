@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.scss'
 import Navbar from './Navbar'
-import Sidebar from './sidebar/Sidebar'
+// import Sidebar from './sidebar/Sidebar'
 import Home from './Home/Home'
 import AboutMe from './About Me/AboutMe'
 import Projects from './My Projects/Projects'
@@ -15,7 +15,7 @@ function App() {
   return (
     <>
     <Navbar>
-      <Sidebar></Sidebar>
+      {/* <Sidebar></Sidebar> */}
     </Navbar>
     <Home></Home>
     <AboutMe></AboutMe>
