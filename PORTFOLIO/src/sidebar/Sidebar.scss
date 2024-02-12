@@ -1,46 +1,47 @@
-.sidebar{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-background-color: azure !important;
-color: black;
-
-    .bg{
-position: fixed;
-width: 400px;
-top: 0;
-left: 0;
-bottom: auto;
-background: white;
-
-        .links{
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            gap: 20px;
-
-
-            a{
-                font-size: 40px;
-            }
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: azure !important;
+    color: black;
+  
+    .bg {
+      position: fixed;
+      width: 400px;
+      top: 0;
+      left: 0;
+      bottom: auto;
+      background: white;
+      z-index: 1; // Ensure .bg is behind .toggleBtn
+  
+      .links {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+  
+        a {
+          font-size: 40px;
+          // Additional styles for anchor tags inside .links
         }
+      }
     }
-
+  
     .toggleBtn {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        position: fixed;
-        top: 25px;
-        left: 25px;
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-    }    
-    
-    
-}
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      position: fixed;
+      top: 25px;
+      left: 25px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      z-index: 2; // Ensure .toggleBtn is in front of .bg
+    }
+  }
+  
