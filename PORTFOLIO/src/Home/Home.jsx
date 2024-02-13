@@ -1,5 +1,5 @@
 import './Home.scss';
-import { motion } from 'framer-motion';
+import { motion, px } from 'framer-motion';
 
 const variants = {
   visible: { opacity: 1, transition: { duration: 1, delay: 0.5 }, scale: 1 },
@@ -97,7 +97,7 @@ const Home = () => {
       </div>
 
       <motion.div className="imgContainer" variants={variants} initial="hidden" animate="visible">
-        <img src='tushar.png' alt="Tushar PNG" className='pfpImg'/>
+        <img src='tushar.png' alt="Tushar PNG" className='pfpImg' />
       </motion.div>
     </div>
   );
