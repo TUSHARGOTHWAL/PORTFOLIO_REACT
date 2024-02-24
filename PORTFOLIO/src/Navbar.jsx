@@ -18,11 +18,11 @@ const Navbar = () => {
         </motion.span>
       </div>
       <div className="logocontainer">
-        <a href="https://www.linkedin.com/in/tushar-gothwal-here/" target="_blank" rel="noopener noreferrer"><img src="linkedin.png" alt="LinkedIn" /></a>
-        <a href="https://www.instagram.com/gothwaltushar03" target="_blank" rel="noopener noreferrer"><img src="instagram.png" alt="Instagram" /></a>
-        <a href="https://twitter.com/TusharGothwal03" target="_blank" rel="noopener noreferrer"><img src="twitter.png" alt="Twitter" /></a>
-        <a href="https://www.youtube.com/channel/UCXqmG7vOZG3XdlsAvzG-YDQ" target="_blank" rel="noopener noreferrer"><img src="youtube.png" alt="YouTube" /></a>
-        <a href="https://discord.com" target="_blank" rel="noopener noreferrer"><img src="discord.png" alt="Discord" /></a>
+        <a href="https://www.linkedin.com/in/tushar-gothwal-here/" className='logoss'><img src="linkedin.png" alt="LinkedIn" /></a>
+        <a href="https://www.instagram.com/gothwaltushar03" className='logoss'><img src="instagram.png" alt="Instagram" /></a>
+        <a href="https://twitter.com/TusharGothwal03"className='logoss' ><img src="twitter.png" alt="Twitter" /></a>
+        <a href="https://www.youtube.com/channel/UCXqmG7vOZG3XdlsAvzG-YDQ" className='logoss'><img src="youtube.png" alt="YouTube" /></a>
+        <a href="https://discord.com" className='logoss'><img src="discord.png" alt="Discord" /></a>
       </div>
     </div>
   );
